@@ -7,4 +7,107 @@ and open the template in the editor.
     Created on : 26/02/2020, 11:55:08 AM
     Author     : Mario
 */
+body{
+    background-color: #000066;
+}
 
+header{
+    width: 100%;
+}
+
+.header{
+    
+    max-height: 100px;
+    width: 100%;
+    background-color: darkslategray;
+    
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.scoreLabel{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+
+.logo{
+    font-family: Impact;
+    font-size: 50px;
+    font-style: italic;
+    color: orange;
+    text-shadow: 1px 1px white;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.justify-content-end{
+    justify-content: flex-end;
+}
+
+.justify-content-start{
+    justify-content: flex-start;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.justify-content-around{
+    justify-content: space-around;
+}
+
+.justify-content-betwen{
+    justify-content: space-between;
+}
+
+.flex-center-box{
+    align-items: center;
+    justify-content: center;
+}
+
+.border{
+    border: 1px solid gray;
+}
+
+.gamePiece{
+    background-color: #9999ff;
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+    width: 350px;
+    height: 200px;
+    box-shadow: 1px 1px 2px gray;
+}
+
+.gamePiece:hover{
+    background-color: #ccccff;
+    cursor: pointer;
+}
+
+footer {
+        fixed: bottom;
+	clear: both;
+	padding-top: 100px;
+}
