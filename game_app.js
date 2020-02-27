@@ -3,6 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+function comenzar(){
+    
 // Get the modal
 var modal = document.getElementById("myModal");
 
@@ -28,4 +30,7 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+}
+
+window.addEventListener("load",comenzar,false);
 
