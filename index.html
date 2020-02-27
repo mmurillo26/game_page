@@ -10,8 +10,7 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>MM GAME</title>
         <link rel="stylesheet" href="style_game.css">
-        <script src='game_app.js'></script>
-
+        <script src="game_app.js"></script>
     </head>
     <body>
         <header>
@@ -29,16 +28,27 @@ and open the template in the editor.
         </header>
 
         <section>
-            <div class="d-flex flex-row flex-wrap justify-content-around">
-                <div class="d-flex gamePiece flex-center-box" style="margin: 10px">100</div>
-                <div class="d-flex gamePiece flex-center-box" style="margin: 10px">100</div>
-                <div class="d-flex gamePiece flex-center-box" style="margin: 10px">100</div>
-                <div class="d-flex gamePiece flex-center-box" style="margin: 10px">200</div>
-                <div class="d-flex gamePiece flex-center-box" style="margin: 10px">200</div>
-                <div class="d-flex gamePiece flex-center-box" style="margin: 10px">200</div>
-                <div class="d-flex gamePiece flex-center-box" style="margin: 10px">500</div>
-                <div class="d-flex gamePiece flex-center-box" style="margin: 10px">500</div>
-                <div class="d-flex gamePiece flex-center-box" style="margin: 10px">500</div>
+            <div> <!-- Trigger/Open The Modal -->
+                <div class="d-flex flex-row flex-wrap justify-content-around">
+                    <div id="myBtn" class="d-flex gamePiece flex-center-box" style="margin: 10px">100</div>
+                    <div class="d-flex gamePiece flex-center-box myBtn" style="margin: 10px">100</div>
+                    <div class="d-flex gamePiece flex-center-box myBtn" style="margin: 10px">100</div>
+                    <div class="d-flex gamePiece flex-center-box myBtn" style="margin: 10px">200</div>
+                    <div class="d-flex gamePiece flex-center-box myBtn" style="margin: 10px">200</div>
+                    <div class="d-flex gamePiece flex-center-box myBtn" style="margin: 10px">200</div>
+                    <div class="d-flex gamePiece flex-center-box myBtn" style="margin: 10px">500</div>
+                    <div class="d-flex gamePiece flex-center-box myBtn" style="margin: 10px">500</div>
+                    <div class="d-flex gamePiece flex-center-box myBtn" style="margin: 10px">500</div>
+                </div>
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p>Some text in the Modal..</p>
+                    </div>
+                </div>
             </div>
         </section>
 
